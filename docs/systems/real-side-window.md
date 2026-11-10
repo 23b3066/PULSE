@@ -11,3 +11,7 @@ VR側とは別に、現実側に情報を提示するための仕組みとして
 `OpenRealSideWindow` は `BlueprintCallable` で公開されており、BlueprintからWidgetクラスを指定して呼び出せます。ただし、実際にどのBlueprintが呼び出すかは確認できていません。ウィンドウ生成にはSlateとモニター情報のAPIを使っていますが、C++を選択した当初の理由は確認できていません。
 
 プロジェクトのモジュール設定には `Core`、`CoreUObject`、`Engine`、`InputCore`、`UMG`、`Slate`、`SlateCore`、`ApplicationCore` が指定されています。ソース単体は独立してビルドできず、Unreal Engine、プロジェクトのモジュール設定、Widgetなどが必要です。
+
+## ソース
+
+元ファイルを変更せずに掲載しています：[ヘッダー](../../code/RealSideWindowSubsystem/RealSideWindowSubsystem.h)／[実装](../../code/RealSideWindowSubsystem/RealSideWindowSubsystem.cpp)。元の文字コードはCP932のため、GitHub上で日本語コメントが正しく表示されない場合があります。UTF-8対応のエディターで開く際はCP932を指定してください。

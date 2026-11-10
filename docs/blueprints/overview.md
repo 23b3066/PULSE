@@ -39,3 +39,20 @@ PULSEでは、VR側が体験する状況と、現実側が得る情報・操作�
 - **撮影候補：** BPMやライフが変化する前後の実機画面と、その値をUIへ反映するグラフを撮影する。
 
 実際のグラフ画像は未掲載です。ノード接続の説明やスクリーンショットは、エディターで内容と公開権限を確認してから追加します。
+
+## Blueprintファイルと依存関係
+
+公開許可を得た次のアセットを、元ファイルのまま収録しています。GitHub上ではグラフを直接表示できず、Unreal Engineで開く場合も元の `/Game/PLUSE/` の配置と参照先が必要です。これらは完成したプロジェクトではありません。
+
+| ファイル | 主な着眼点 |
+| --- | --- |
+| [BP_VRPawn](../../blueprints/PLUSE/BluePrint/BP_VRPawn.uasset) | 左右のハンドポーズ認識 |
+| [BP_Serial](../../blueprints/PLUSE/BluePrint/BP_Serial.uasset) | シリアル通信、BPM、重さ |
+| [BP_TileGimmick](../../blueprints/PLUSE/BluePrint/BP_TileGimmick.uasset) | タイル位置 |
+| [BP_Tile](../../blueprints/PLUSE/BluePrint/BP_Tile.uasset) | タイルの生成・削除に関する識別子 |
+| [BP_LevelProgressTracker](../../blueprints/PLUSE/BluePrint/BP_LevelProgressTracker.uasset) | 開始・ゴールと進行率 |
+| [WBP_RealSideMain](../../blueprints/PLUSE/UI/WBP_RealSideMain.uasset) | 現実側のスキルと状態表示 |
+| [WBP_BPM](../../blueprints/PLUSE/UI/WBP_BPM.uasset) | 2人分の心拍数表示 |
+| [WBP_LifeDisplay](../../blueprints/PLUSE/UI/WBP_LifeDisplay.uasset) | ライフアイコン |
+
+識別子・参照の調査では、OculusHandPoseRecognition／OculusXRInput、SERIALCOM、VR Templateの入力アクション、StarterContent、Dungeonのマテリアル、PULSE内の未収録Blueprint・UI・マテリアル等への参照を確認しました。これらのプラグインや素材は同梱していません。各アセットの実行順や参照先の完全な一覧は、エディターでの検証が必要です。

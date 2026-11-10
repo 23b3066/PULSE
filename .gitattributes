@@ -1,0 +1,4 @@
+# 元ファイルのバイト列を保持
+/code/RealSideWindowSubsystem/*.cpp -text
+/code/RealSideWindowSubsystem/*.h -text
+/blueprints/**/*.uasset -text

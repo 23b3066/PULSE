@@ -30,3 +30,13 @@
 *.avi
 .DS_Store
 Thumbs.db
+
+# 公開許可を得たBlueprintのみ例外
+!/blueprints/PLUSE/BluePrint/BP_VRPawn.uasset
+!/blueprints/PLUSE/BluePrint/BP_Serial.uasset
+!/blueprints/PLUSE/BluePrint/BP_TileGimmick.uasset
+!/blueprints/PLUSE/BluePrint/BP_Tile.uasset
+!/blueprints/PLUSE/BluePrint/BP_LevelProgressTracker.uasset
+!/blueprints/PLUSE/UI/WBP_RealSideMain.uasset
+!/blueprints/PLUSE/UI/WBP_BPM.uasset
+!/blueprints/PLUSE/UI/WBP_LifeDisplay.uasset
