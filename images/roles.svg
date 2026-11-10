@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">PULSEの2人の役割</title><desc id="desc">VR側は探索し、現実側は支援する。ふたりは会話で情報を共有するという企画図。</desc>
+<rect width="1200" height="400" rx="24" fill="#101923"/>
+<text x="600" y="60" text-anchor="middle" fill="#d8e9ee" font-family="sans-serif" font-size="24" letter-spacing="4">TWO PERSPECTIVES, ONE ESCAPE</text>
+<rect x="48" y="96" width="400" height="245" rx="18" fill="#173641" stroke="#54c7c4" stroke-width="2"/>
+<text x="82" y="150" fill="#73ded8" font-family="sans-serif" font-size="21">VR SIDE</text>
+<text x="82" y="211" fill="#fff" font-family="sans-serif" font-size="35" font-weight="bold">空間を探索する</text>
+<text x="82" y="263" fill="#c4d5db" font-family="sans-serif" font-size="21">見える状況を伝える</text>
+<rect x="752" y="96" width="400" height="245" rx="18" fill="#372734" stroke="#db987f" stroke-width="2"/>
+<text x="786" y="150" fill="#ffc1a8" font-family="sans-serif" font-size="21">REAL SIDE</text>
+<text x="786" y="211" fill="#fff" font-family="sans-serif" font-size="35" font-weight="bold">現実から支援する</text>
+<text x="786" y="263" fill="#e3ced0" font-family="sans-serif" font-size="21">情報と操作で協力する</text>
+<path d="M470 205 H730 M470 205 l18 -12 M470 205 l18 12 M730 205 l-18 -12 M730 205 l-18 12" fill="none" stroke="#dce5e9" stroke-width="3"/>
+<text x="600" y="187" text-anchor="middle" fill="#dce5e9" font-family="sans-serif" font-size="19">会話・情報共有</text>
+<text x="600" y="372" text-anchor="middle" fill="#9aabb4" font-family="sans-serif" font-size="16">企画上の役割を示す図</text>
+</svg>

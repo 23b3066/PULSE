@@ -1,0 +1,32 @@
+# Unreal Engineプロジェクトと生成物を登録しない
+/Content/
+/Config/
+/Source/
+/Plugins/
+/Binaries/
+/Intermediate/
+/Saved/
+/DerivedDataCache/
+/.vs/
+*.uproject
+*.uasset
+*.umap
+*.sln
+*.log
+# ローカル環境・認証情報
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+# 大容量動画は外部リンクで紹介する
+*.mp4
+*.mov
+*.mkv
+*.avi
+.DS_Store
+Thumbs.db
